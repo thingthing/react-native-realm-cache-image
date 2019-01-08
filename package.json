@@ -42,9 +42,12 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "react-native-fs": "^2.0.1-rc.2",
-    "react-timer-mixin": "^0.13.3"
-  },
+    "react-native-fs": "^2.0.1-rc.2"
+	},
+	"peerDependencies": {
+		"realm": "*",
+		"prop-types": "*"
+	},
   "deprecated": false,
   "description": "A cache-image for react-native with using Realm",
   "homepage": "https://github.com/machei/react-native-realm-cache-image",
